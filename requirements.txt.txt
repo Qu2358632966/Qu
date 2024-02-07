@@ -1,0 +1,2 @@
+pycharts>=2.0.4
+streamlit_echarts>=0.0.4
