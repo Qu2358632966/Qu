@@ -38,7 +38,7 @@ def p2():
     up_file = st.file_uploader('上传一个txt文件')
     if up_file is not None:
         # To convert to a string based IO:
-        stringio = StringIO(up_file.getvalue().decode("utf-8"))
+        txt = StringIO(up_file.getvalue().decode("utf-8"))
     txt = st.text_area(
         "",
         ""
